@@ -38,6 +38,22 @@ h1,h2,h3,h4,h5,h6,p,ul,li,ol{
     background: transparent;
 }
 
+.com_section_head{
+    color: #141135;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+}
+.com_pera{
+    color: #726E9E;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    font-family: 'Paprika', cursive;
+    margin-bottom: 40px;
+}
+
 /*=========================================================
                     Common css end
 =========================================================*/
@@ -178,6 +194,210 @@ h1,h2,h3,h4,h5,h6,p,ul,li,ol{
 }
 /*=========================================================
                     Counter css end
+=========================================================*/
+
+
+/*=========================================================
+                    Choose css Start
+=========================================================*/
+#choose{
+    padding: 100px 0 90px;
+    background: #FDFDFD;
+    position: relative;
+    z-index: 1;
+}
+#choose .choose_float_image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+#choose .choose_left ul li{
+    color: #726E9E;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Paprika', cursive;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 20px;
+    position: relative;
+    transition: all linear .3s;
+}
+#choose .choose_left ul li:hover{
+    padding: 42px 100px 42px 100px;
+    background: #fff;
+    box-shadow: 10px 10px 10px rgba(162, 169, 192, 0.2);
+    border-radius: 20px;
+}
+#choose .choose_left ul li::after{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+    background: #1BBF00;
+    border-radius: 50%;
+    z-index: 1;
+}
+#choose .choose_left ul li::before{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 40px;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+    background: #CBC8F0;
+    border-radius: 50%;
+    z-index: 2;
+}
+#choose .choose_right .com_btn:hover{
+    color: #1BBF00;
+}
+/*=========================================================
+                    Choose css end
+=========================================================*/
+
+
+/*=========================================================
+                    Service css Start
+=========================================================*/
+#service{
+    padding: 100px 0;
+    background: #F6F5FF;
+}
+#service .service_intro .com_pera{
+    line-height: 32px;
+    font-family: 'Open Sans', sans-serif;
+}
+#service .service_intro .com_btn:hover{
+    color: #1BBF00;
+}
+#service .service_item{
+    padding: 48px 50px;
+    background: #fff;
+    text-align: center;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    transition: all linear .3s;
+}
+#service .service_item:hover{
+    background: #6B62C5;
+}
+#service .service_item:hover .text h4{
+    color: #FAFAFE;
+}
+#service .service_item:hover .text p{
+    color: #E6E5F3;
+}
+#service .service_item:hover .text a{
+    color: #F4F4F5;
+}
+#service .service_item:hover .text a::after{
+    background: rgba(255, 255, 255, 0.5);
+}
+#service .service_item .text{
+    margin-top: 32px;
+}
+#service .service_item .text h4{
+    color: #141135;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+#service .service_item .text p{
+    color: #726E9E;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Paprika', cursive;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+#service .service_item .text a{
+    color: #141135;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    padding: 8px 15px;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+#service .service_item .text a::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    width: 15%;
+    height: 100%;
+    background: rgba(25, 191, 0, 0.4);
+    z-index: -1;
+    transition: all linear .3s;
+}
+#service .service_item .text a:hover::after{
+    width: 100%;
+}
+/*=========================================================
+                    Service css end
+=========================================================*/
+
+
+/*=========================================================
+                    Impact css Start
+=========================================================*/
+#impact{
+    padding: 90px 0 100px;
+    position: relative;
+    z-index: 1;
+}
+#impact .impact_float_image{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+#impact .com_section_head{
+    text-align: center;
+}
+#impact .com_pera{
+    text-align: center;
+    margin-bottom: 80px;
+}
+#impact .impact_left ul li{
+    position: relative;
+    padding-left: 100px;
+    margin-bottom: 50px;
+}
+#impact .impact_left ul li .icon_img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#impact .impact_left ul li .text h4{
+    color: #141135;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+#impact .impact_left ul li .text p{
+    color: #726E9E;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Paprika', cursive;
+    line-height: 30px;
+}
+#impact .impact_right img{
+    width: 100%;
+    max-width: 100%;
+}
+/*=========================================================
+                    Impact css end
 =========================================================*/
 
 
