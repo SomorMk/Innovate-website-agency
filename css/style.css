@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol,li{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li,ol{
+    padding: 0;
+    margin: 0;
+}
+
+.com_btn{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    padding: 20px 50px;
+    background: transparent;
+    border-radius: 100px;
+    border: 2px solid #1BBF00;
+    transition: all linear .3s;
+}
+.com_btn.active{
+    background: #1BBF00;
+}
+.com_btn:hover{
+    background: #1BBF00;
+}
+.com_btn.active:hover{
+    background: transparent;
+}
+
+/*=========================================================
+                    Common css end
+=========================================================*/
+
+
+/*=========================================================
+                    Nav css Start
+=========================================================*/
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background: rgba(22, 12, 109, 0.6);
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: #EFF4FA;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 25px;
+    transition: all linear .3s;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #1BBF00;
+}
+.navbar .navbar-nav .nav-item .active{
+    color: #1BBF00;
+}
+.navbar .nav_button{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    padding: 14px 35px;
+    background: #1BBF00;
+    border-radius: 100px;
+    border: 2px solid transparent;
+    transition: all linear .3s;
+}
+.navbar .nav_button:hover{
+    background: transparent;
+    border: 2px solid #1BBF00;
+}
+/*=========================================================
+                    Nav css end
+=========================================================*/
+
+
+/*=========================================================
+                    Banner css Start
+=========================================================*/
+#banner{
+    padding: 250px 0;
+    position: relative;
+    z-index: 1;
+}
+#banner::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(106, 98, 197, 0.7);
+    z-index: -1;
+}
+#banner .banner_text{
+    text-align: center;
+}
+#banner .banner_text h1{
+    color: #FAFAFE;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 100px;
+    margin-bottom: 25px;
+}
+#banner .banner_text p{
+    color: #E6E5F3;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Paprika', cursive;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+#banner .banner_btns a{
+    margin: 0 10px;
+}
+/*=========================================================
+                    Banner css end
+=========================================================*/
+
+
+/*=========================================================
+                    Counter css Start
+=========================================================*/
+#counter{
+    padding: 280px 0;
+    background: #F9F9FB;
+    position: relative;
+}
+#counter .counter_float_image{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#counter .counter_row .counter_item{
+    text-align: center;
+    position: relative;
+}
+#counter .counter_row .counter_item::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: rgba(79, 88, 95, 0.6);
+}
+#counter .counter_row .counter_item:last-child::after{
+    display: none;
+}
+#counter .counter_row .counter_item h3{
+    color: #1BBF00;
+    font-size: 55px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+}
+#counter .counter_row .counter_item h5{
+    color: #141135;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+}
+/*=========================================================
+                    Counter css end
+=========================================================*/
+
+
+/*=========================================================
+                    Nav css Start
+=========================================================*/
+/*=========================================================
+                    Nav css end
+=========================================================*/
